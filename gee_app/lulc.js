@@ -242,7 +242,7 @@ var panel = {
       style: styleH1
   }),
   sec_panel:ui.Label({
-    value:'Division Level Assessment',
+    value:'District Level Assessment',
     style:{
       fontWeight: 'bold',
       fontSize: '14px',
@@ -252,7 +252,7 @@ var panel = {
     }
   }),
   sub_title: ui.Label({
-      value: 'Select your Province/division and see the LULC rasters and total area for each class.',
+      value: 'Select your Province/district and see the LULC rasters and total area for each class.',
       style: styleP
   }),
   provider: ui.Label({
@@ -260,9 +260,9 @@ var panel = {
       style: styleH2
   }),
   source: ui.Label({
-      value: 'citation here...',
+      value: 'Paper Currently under review!!!',
       style: styleP
-  }).setUrl('http://earthenginepartners.appspot.com/science-2013-global-forest'),
+  }).setUrl('http://waleedgeo.com'),
   area_list: ui.Label({
       value: 'Select your area :',
       style: styleH2
@@ -288,11 +288,11 @@ var panel = {
       }
   }),
   dis: ui.Label({
-      value: 'Division Name :',
+      value: 'District Name :',
       style: styleP
   }),
   district: ui.Select({
-      placeholder: 'Select Division',
+      placeholder: 'Select District',
       style: styleBox,
       disabled: true,
       onChange: function () {
@@ -306,6 +306,12 @@ var panel = {
           var aoi_img2000 = img2000.clip(layer)
           var aoi_img2010 = img2010.clip(layer)
           var aoi_img2020 = img2020.clip(layer)
+
+          var urban1990 = aoi_img1990.eq(8)
+          
+          var change_img = aoi_img2020.subtract(aoi_img1990)``
+
+
 
           Map.addLayer(aoi_img1990, lulcvis, aoi_name + ' LULC 1990', false)
           Map.addLayer(aoi_img2000, lulcvis, aoi_name + ' LULC 2000', false)
