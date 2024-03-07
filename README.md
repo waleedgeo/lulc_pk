@@ -1,20 +1,53 @@
-# Leveraging Google Earth Engine and geospatial techniques for Pakistan national scale land cover, change transition, and carbon storage assessment between 1990-2020
 
-A repository containing data for upcomming paper "Leveraging Google Earth Engine and geospatial techniques for Pakistan national scale land cover, change transition, and carbon storage assessment between 1990-2020"
+# Urbanization-led land cover change impacts terrestrial carbon storage capacity: A high-resolution remote sensing-based nation-wide assessment in Pakistan (1990–2020)
 
-## [Paper Under Preparation]
+## Overview
 
+This repository contains the codes and resources for our published study _[Urbanization-led land cover change impacts terrestrial carbon storage capacity: A high-resolution remote sensing-based nation-wide assessment in Pakistan (1990–2020)](https://doi.org/10.1016/j.eiar.2023.107396)_.
+
+Note: if you find this work insightful, please consider citing our paper:
+
+```bibtex
+Waleed, M., Sajjad, M., & Shazil, M. S. (2024). Urbanization-led land cover change impacts terrestrial carbon storage capacity: A high-resolution remote sensing-based nation-wide assessment in Pakistan (1990–2020). Environmental Impact Assessment Review, 105, 107396.
+```
+You can also find the paper [here](https://doi.org/10.1016/j.eiar.2023.107396), and its PDF version [here](https://waleedgeo.com/papers/waleed2024_paklulc.pdf).
+
+Below you can find the codes and previews of the GEE based web application which allows users to select a province and district to view the land use land cover and carbon storage data interactively. Moreover, for details of data availability, [check this](#national-scale-lulc-and-carbon-storage-data-availability).
+
+## Web Application
+
+### For Land use Land Cover (LULC) (1990-2020)
+
+The LULC web application allows users to select province, and then district and based on these, the app visualizes the land cover for four durations (1990, 2000, 2010, and 2020). The LULC app can be accessed [here](https://waleedgis.users.earthengine.app/view/pakistan-lulc-1990-2020) or by clicking the figure below.
+
+[![App Screenshot](https://imgur.com/6VulZAQ.png)](https://waleedgis.users.earthengine.app/view/pakistan-lulc-1990-2020)
+
+**APP Working**
+
+<p align="center">
+    <img src="https://imgur.com/azb1v8H.gif" alt="animated" />
+</p>
+
+
+### For For Carbon Storage (1990-2020)
+
+The Carbon Storage web application allows users to select province, and then district and based on these, the app visualizes the carbon storage for four durations (1990, 2000, 2010, and 2020). The carbon storage app can be accessed [here](https://waleedgis.users.earthengine.app/view/pakistan-carbon-1990-2020) or by clicking the figure below.
+
+[![App Screenshot](https://imgur.com/IzEZJau.png)](https://waleedgis.users.earthengine.app/view/pakistan-carbon-1990-2020)
+
+**APP Working**
+
+<p align="center">
+    <img src="https://imgur.com/MLKKDcV.gif" alt="animated" />
+</p>
+
+## National scale LULC and Carbon Storage data availability
+
+- If you are interested in the dataset (land cover, carbon storage, and transition matrix) used in the study, please contact the authors directly [emil: waleedgeo at outlook.com](mailto:waleedgeo@outlook.com?subject=Data%20Request%20-%20PAKISTAN%20LULC%20%26%20Carbon%20Storage).
+
+- Currently, both datasets (LULC and Carbon Storage) are not open-sourced as we are further working on them. However, feel free to reach out to us for any queries or collaborations.
+
+
+For more details check the author profile at [waleedgeo.com](https://waleedgeo.com)
 ---
-For details and discussion contact waleedgeo at outlook.com
 
-
-
-
-# gif for app 1
-
-![gif](https://imgur.com/azb1v8H.gif)
-
-
-
-# gif for app 2
-![gif](https://imgur.com/MLKKDcV.gif)
