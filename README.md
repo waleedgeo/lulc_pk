@@ -48,6 +48,11 @@ The Carbon Storage web application allows users to select province, and then dis
 - Currently, both datasets (LULC and Carbon Storage) are not open-sourced as we are further working on them. However, feel free to reach out to us for any queries or collaborations.
 
 
-For more details check the author profile at [waleedgeo.com](https://waleedgeo.com)
+For more details check the author profile
+- [Mirza Waleed](https://waleedgeo.com)
+
+- [Dr. Sajjad Muhammad](https://geog.hkbu.edu.hk/people/detail/680/)
+
+- [Shazil Qureshi](https://www.linkedin.com/in/shazil-qureshi-60a624246/)
 ---
 
