@@ -43,7 +43,8 @@ The Carbon Storage web application allows users to select province, and then dis
 
 ## National scale LULC and Carbon Storage data availability
 
-- If you are interested in the dataset (land cover, carbon storage, and transition matrix) used in the study, please contact the authors directly [email: waleedgeo at outlook.com](mailto:waleedgeo@outlook.com?subject=Data%20Request%20-%20PAKISTAN%20LULC%20%26%20Carbon%20Storage).
+- If you are interested in the dataset (land cover, carbon storage, and transition matrix) used in the study, please contact the authors directly:
+[email: waleedgeo@outlook.com](mailto:waleedgeo@outlook.com).
 
 - Currently, both datasets (LULC and Carbon Storage) are not open-sourced as we are further working on them. However, feel free to reach out to us for any queries or collaborations.
 
