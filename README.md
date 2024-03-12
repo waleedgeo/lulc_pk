@@ -55,5 +55,9 @@ For more details check the author profile
 - [Dr. Sajjad Muhammad](https://geog.hkbu.edu.hk/people/detail/680/)
 
 - [Shazil Qureshi](https://www.linkedin.com/in/shazil-qureshi-60a624246/)
+
+
+For more details on research projects and opportunities, check our [UrbES Lab](https://www.researchgate.net/lab/UrbES-Urban-Environmental-Systems-Lab-Muhammad-Sajjad-PhD).
+
 ---
 
