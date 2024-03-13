@@ -745,6 +745,7 @@ widgets: [
     ui.Label({value:'Email : waleedgeo@outlook.com', style:{fontSize:'12px',margin:'3px 5px'}}).setUrl('https://mailto:waleedgeo@outlook.com'),
     ui.Label({value:'Website: waleedgeo.com', style:{fontSize:'12px',margin:'3px 5px'}}).setUrl('https://waleedgeo.com'),
     ui.Label({value:'LinkedIn: WaleedGeo', style:{fontSize:'12px',margin:'3px 5px'}}).setUrl('https://www.linkedin.com/in/waleedgeo'),
+    ui.Label({value:'UrbES-Lab', style:{fontSize:'12px',margin:'3px 5px'}}).setUrl('https://www.researchgate.net/lab/UrbES-Urban-Environmental-Systems-Lab-Muhammad-Sajjad-PhD'),
 ],
 style: {
     margin: '12px',
