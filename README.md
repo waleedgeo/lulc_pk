@@ -59,32 +59,6 @@ This dataset provides high-resolution, nationwide **Land Use/Land Cover (LULC)**
 
 ---
 
-## Web Applications
-
-Interactive **Google Earth Engine (GEE)** applications are available to explore the datasets.
-
-### Land Use Land Cover (LULC) Viewer
-
-- **Access App**: [Pakistan LULC Viewer (1990–2020)](https://waleedgis.users.earthengine.app/view/pakistan-lulc-1990-2020)
-- **Features**:
-  - Select province and district
-  - Visualize LULC for 1990, 2000, 2010, and 2020
-- **Preview**:
-
-  ![LULC App Demo](https://imgur.com/azb1v8H.gif)
-
-### Carbon Storage Viewer
-
-- **Access App**: [Pakistan Carbon Storage Viewer (1990–2020)](https://waleedgis.users.earthengine.app/view/pakistan-carbon-1990-2020)
-- **Features**:
-  - Select province and district
-  - Visualize carbon storage for 1990, 2000, 2010, and 2020
-- **Preview**:
-
-  ![Carbon Storage App Demo](https://imgur.com/MLKKDcV.gif)
-
----
-
 ## Earth Engine Access
 
 The datasets are also available as Earth Engine assets for direct use within the GEE platform.
@@ -109,7 +83,7 @@ var carbon2020 = ee.Image('projects/pak-var/assets/carbon_pk/img2020').multiply(
 
 ### Note
 
-We have uploaded the dataset to the **Google Earth Engine** platform and have submitted a request to include it in the **Awesome Community Datasets Catalogue**. The request is currently pending approval, and we will update this repository once the dataset is officially included.
+This dataset is now included in [Awsome GEE Community Catalogue](https://gee-community-catalog.org/projects/pk_lulc/). You can find it here: [LINK](https://gee-community-catalog.org/projects/pk_lulc/).
 
 ---
 
@@ -125,6 +99,32 @@ We have uploaded the dataset to the **Google Earth Engine** platform and have su
 | Water Bodies         | 7           | `#005ce6`   | ![#005ce6](https://via.placeholder.com/15/005ce6/000000?text=+) |
 | Built-up Areas       | 8           | `#e50600`   | ![#e50600](https://via.placeholder.com/15/e50600/000000?text=+) |
 | Snow/Ice             | 9           | `#fe4fcd`   | ![#fe4fcd](https://via.placeholder.com/15/fe4fcd/000000?text=+) |
+
+---
+
+## Web Applications
+
+Interactive **Google Earth Engine (GEE)** applications are available to explore the datasets.
+
+### Land Use Land Cover (LULC) Viewer
+
+- **Access App**: [Pakistan LULC Viewer (1990–2020)](https://waleedgis.users.earthengine.app/view/pakistan-lulc-1990-2020)
+- **Features**:
+  - Select province and district
+  - Visualize LULC for 1990, 2000, 2010, and 2020
+- **Preview**:
+
+  ![LULC App Demo](https://imgur.com/azb1v8H.gif)
+
+### Carbon Storage Viewer
+
+- **Access App**: [Pakistan Carbon Storage Viewer (1990–2020)](https://waleedgis.users.earthengine.app/view/pakistan-carbon-1990-2020)
+- **Features**:
+  - Select province and district
+  - Visualize carbon storage for 1990, 2000, 2010, and 2020
+- **Preview**:
+
+  ![Carbon Storage App Demo](https://imgur.com/MLKKDcV.gif)
 
 ---
 
